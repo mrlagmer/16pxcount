@@ -9,6 +9,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "hjs-webpack": "^2.12.3"
+    "hjs-webpack": "^2.12.3",
+    "redux": "^1.0.1"
   }
 }
