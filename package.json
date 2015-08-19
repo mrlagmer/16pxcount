@@ -1,0 +1,14 @@
+{
+  "name": "Reduxcount",
+  "version": "1.0.0",
+  "author": "Stuart Mitchell",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "hjs-webpack": "^2.12.3"
+  }
+}
