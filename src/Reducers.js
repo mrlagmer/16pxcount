@@ -1,4 +1,17 @@
-import {INCREASEACTION, DECREASEACTION} from './Actions';
+export const INCREASEACTION = {type: 'INCREASEACTION'};
+export const DECREASEACTION = {type: 'DECREASEACTION'};
+
+export function increase() {
+    return {
+        type: INCREASEACTION
+    }
+}
+
+export function decrease() {
+    return {
+        type: DECREASEACTION
+    }
+}
 
 // Reducer:
 export default function counter(state={count: 0}, action) {

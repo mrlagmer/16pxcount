@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "hjs-webpack": "^2.12.3",
+    "react-redux": "^1.0.1",
     "redux": "^1.0.1"
   }
 }
