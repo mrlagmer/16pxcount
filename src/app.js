@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 import React from 'react';
 import counter from './Reducers';
 import Counter from './Components/Counter';
-import { increase, decrease, INCREASEACTION, DECREASEACTION} from './Reducers';
+import { increase, decrease} from './Reducers';
 import { Provider, connect } from 'react-redux';
 
 
